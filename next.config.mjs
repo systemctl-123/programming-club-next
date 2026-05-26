@@ -4,9 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  swcMinify: false,
+  turbopack: {
+    root: '.',
+  },
   experimental: {
-    webpackBuildWorker: false,
   },
   webpack: (config, { dev }) => {
     if (!dev && config.optimization && config.optimization.minimizer) {
@@ -22,9 +23,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  }
 };
 
 export default nextConfig;
