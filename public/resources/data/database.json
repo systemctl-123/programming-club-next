@@ -1,0 +1,433 @@
+{
+  "current_committee": "2026-27",
+  "committees": [
+    {
+      "session": "2026-27",
+      "label": "2026 – 2027",
+      "total_members": 8,
+      "members": [
+        {
+          "id": "elon-musk-26",
+          "initial": "E",
+          "role": "Chief Engineer",
+          "role_display": "// CHIEF ENGINEER",
+          "name": "Elon Musk",
+          "department": "Multi-Planetary · Year X",
+          "is_president": true,
+          "bio": "Founder of SpaceX and Tesla. Engineering first principles advocate. Focused on making humanity multi-planetary.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/elonmusk"
+            },
+            {
+              "type": "linkedin",
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/elonmusk"
+            }
+          ]
+        },
+        {
+          "id": "jensen-huang-26",
+          "initial": "J",
+          "role": "AI Architect",
+          "role_display": "// AI ARCHITECT",
+          "name": "Jensen Huang",
+          "department": "Computing · Year X",
+          "is_president": false,
+          "bio": "Founder and CEO of NVIDIA. Pioneer of GPU computing and the modern AI revolution.",
+          "socials": [
+            {
+              "type": "linkedin",
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/jensenhuang"
+            }
+          ]
+        },
+        {
+          "id": "sam-altman-26",
+          "initial": "S",
+          "role": "LLM Strategist",
+          "role_display": "// LLM STRATEGIST",
+          "name": "Sam Altman",
+          "department": "Intelligence · Year X",
+          "is_president": false,
+          "bio": "CEO of OpenAI. Leading the development of AGI to ensure it benefits all of humanity.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/samaltman"
+            }
+          ]
+        },
+        {
+          "id": "demis-hassabis-26",
+          "initial": "D",
+          "role": "Research Lead",
+          "role_display": "// RESEARCH LEAD",
+          "name": "Demis Hassabis",
+          "department": "Neuroscience · Year X",
+          "is_president": false,
+          "bio": "CEO and Co-founder of Google DeepMind. Combining neuroscience and AI to solve intelligence.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/demishassabis"
+            }
+          ]
+        },
+        {
+          "id": "satya-nadella-26",
+          "initial": "S",
+          "role": "Cloud Visionary",
+          "role_display": "// CLOUD VISIONARY",
+          "name": "Satya Nadella",
+          "department": "Enterprise · Year X",
+          "is_president": false,
+          "bio": "CEO of Microsoft. Transformed the company into a cloud-first, AI-first powerhouse.",
+          "socials": [
+            {
+              "type": "linkedin",
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/satyanadella"
+            }
+          ]
+        },
+        {
+          "id": "tim-cook-26",
+          "initial": "T",
+          "role": "Operations Master",
+          "role_display": "// OPERATIONS MASTER",
+          "name": "Tim Cook",
+          "department": "Hardware · Year X",
+          "is_president": false,
+          "bio": "CEO of Apple. Master of supply chain and ecosystem growth, scaling Apple to historic heights.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/tim_cook"
+            }
+          ]
+        },
+        {
+          "id": "sundar-pichai-26",
+          "initial": "S",
+          "role": "Search Architect",
+          "role_display": "// SEARCH ARCHITECT",
+          "name": "Sundar Pichai",
+          "department": "Information · Year X",
+          "is_president": false,
+          "bio": "CEO of Alphabet and Google. Orchestrating the shift toward the AI-driven web.",
+          "socials": [
+            {
+              "type": "linkedin",
+              "label": "LinkedIn",
+              "url": "https://linkedin.com/in/sundarpichai"
+            }
+          ]
+        },
+        {
+          "id": "mark-zuckerberg-26",
+          "initial": "M",
+          "role": "Social Engineer",
+          "role_display": "// SOCIAL ENGINEER",
+          "name": "Mark Zuckerberg",
+          "department": "Connections · Year X",
+          "is_president": false,
+          "bio": "Founder of Meta. Pivoting the social web toward the Metaverse and open-source AI with Llama.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/zuck"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "2025-26",
+      "label": "2025 – 2026",
+      "total_members": 7,
+      "members": [
+        {
+          "id": "jeff-bezos-25",
+          "initial": "J",
+          "role": "Logistics Titan",
+          "role_display": "// LOGISTICS TITAN",
+          "name": "Jeff Bezos",
+          "department": "Commerce · Year X",
+          "is_president": true,
+          "bio": "Founder of Amazon and Blue Origin. Revolutionized e-commerce and global logistics.",
+          "socials": [
+            {
+              "type": "twitter",
+              "label": "X",
+              "url": "https://x.com/jeffbezos"
+            }
+          ]
+        },
+        {
+          "id": "larry-page-25",
+          "initial": "L",
+          "role": "Algorithm Lead",
+          "role_display": "// ALGORITHM LEAD",
+          "name": "Larry Page",
+          "department": "Computing · Year X",
+          "is_president": false,
+          "bio": "Co-founder of Google. Invented PageRank, fundamentally changing how we find information.",
+          "socials": []
+        },
+        {
+          "id": "sergey-brin-25",
+          "initial": "S",
+          "role": "Systems Lead",
+          "role_display": "// SYSTEMS LEAD",
+          "name": "Sergey Brin",
+          "department": "Computing · Year X",
+          "is_president": false,
+          "bio": "Co-founder of Google. A pioneer in large-scale distributed systems and AI research.",
+          "socials": []
+        },
+        {
+          "id": "reed-hastings-25",
+          "initial": "R",
+          "role": "Stream Architect",
+          "role_display": "// STREAM ARCHITECT",
+          "name": "Reed Hastings",
+          "department": "Entertainment · Year X",
+          "is_president": false,
+          "bio": "Co-founder of Netflix. Disrupted the entire entertainment industry with the subscription model.",
+          "socials": []
+        },
+        {
+          "id": "peter-thiel-25",
+          "initial": "P",
+          "role": "Venture Strategist",
+          "role_display": "// VENTURE STRATEGIST",
+          "name": "Peter Thiel",
+          "department": "Finance · Year X",
+          "is_president": false,
+          "bio": "Co-founder of PayPal and Palantir. Philosopher of zero-to-one growth and contrarian investing.",
+          "socials": []
+        },
+        {
+          "id": "jack-ma-25",
+          "initial": "J",
+          "role": "Market Pioneer",
+          "role_display": "// MARKET PIONEER",
+          "name": "Jack Ma",
+          "department": "Trade · Year X",
+          "is_president": false,
+          "bio": "Founder of Alibaba. Built the digital infrastructure for trade across Asia.",
+          "socials": []
+        },
+        {
+          "id": "masayoshi-son-25",
+          "initial": "M",
+          "role": "Capital Catalyst",
+          "role_display": "// CAPITAL CATALYST",
+          "name": "Masayoshi Son",
+          "department": "Investments · Year X",
+          "is_president": false,
+          "bio": "CEO of SoftBank. Orchestrated some of the largest tech investments in human history.",
+          "socials": []
+        }
+      ]
+    },
+    {
+      "session": "2024-25",
+      "label": "2024 – 2025",
+      "total_members": 8,
+      "members": [
+        {
+          "id": "steve-jobs-24",
+          "initial": "S",
+          "role": "Design Visionary",
+          "role_display": "// DESIGN VISIONARY",
+          "name": "Steve Jobs",
+          "department": "Industrial Design · Year X",
+          "is_president": true,
+          "bio": "Co-founder of Apple. Merged calligraphy and computing to create an era of intuitive technology.",
+          "socials": []
+        },
+        {
+          "id": "steve-wozniak-24",
+          "initial": "S",
+          "role": "Hardware Legend",
+          "role_display": "// HARDWARE LEGEND",
+          "name": "Steve Wozniak",
+          "department": "Electronics · Year X",
+          "is_president": false,
+          "bio": "Co-founder of Apple. Designed the Apple I and II, proving a hobbyist could change the world.",
+          "socials": []
+        },
+        {
+          "id": "paul-allen-24",
+          "initial": "P",
+          "role": "Software Pioneer",
+          "role_display": "// SOFTWARE PIONEER",
+          "name": "Paul Allen",
+          "department": "Operating Systems · Year X",
+          "is_president": false,
+          "bio": "Co-founder of Microsoft. A visionary in early computing and passionate about biodiversity.",
+          "socials": []
+        },
+        {
+          "id": "andy-grove-24",
+          "initial": "A",
+          "role": "Scaling Expert",
+          "role_display": "// SCALING EXPERT",
+          "name": "Andy Grove",
+          "department": "Semiconductors · Year X",
+          "is_president": false,
+          "bio": "Former CEO of Intel. Coined 'Only the Paranoid Survive' and defined modern management.",
+          "socials": []
+        },
+        {
+          "id": "alan-turing-24",
+          "initial": "A",
+          "role": "Computing Father",
+          "role_display": "// COMPUTING FATHER",
+          "name": "Alan Turing",
+          "department": "Logic · Year X",
+          "is_president": false,
+          "bio": "The father of theoretical computer science and artificial intelligence. Cracked the Enigma code.",
+          "socials": []
+        },
+        {
+          "id": "ada-lovelace-24",
+          "initial": "A",
+          "role": "Algorithm Architect",
+          "role_display": "// ALGORITHM ARCHITECT",
+          "name": "Ada Lovelace",
+          "department": "Mathematics · Year X",
+          "is_president": false,
+          "bio": "The first computer programmer. Recognized that machines could do more than just calculate numbers.",
+          "socials": []
+        },
+        {
+          "id": "grace-hopper-24",
+          "initial": "G",
+          "role": "Compiler Lead",
+          "role_display": "// COMPILER LEAD",
+          "name": "Grace Hopper",
+          "department": "Programming · Year X",
+          "is_president": false,
+          "bio": "Pioneer of COBOL and the concept of the computer compiler. Found the first 'bug' in a relay.",
+          "socials": []
+        },
+        {
+          "id": "claude-shannon-24",
+          "initial": "C",
+          "role": "Information Guru",
+          "role_display": "// INFORMATION GURU",
+          "name": "Claude Shannon",
+          "department": "Theory · Year X",
+          "is_president": false,
+          "bio": "The father of information theory. Defined the 'bit' and established the mathematical basis of communication.",
+          "socials": []
+        }
+      ]
+    },
+    {
+      "session": "2023-24",
+      "label": "2023 – 2024",
+      "total_members": 8,
+      "members": [
+        {
+          "id": "albert-einstein-23",
+          "initial": "A",
+          "role": "Physics Titan",
+          "role_display": "// PHYSICS TITAN",
+          "name": "Albert Einstein",
+          "department": "Theoretical Physics · Year X",
+          "is_president": true,
+          "bio": "Developed the theory of relativity. Redefined our understanding of space, time, and gravity.",
+          "socials": []
+        },
+        {
+          "id": "isaac-newton-23",
+          "initial": "I",
+          "role": "Calculus Pioneer",
+          "role_display": "// CALCULUS PIONEER",
+          "name": "Isaac Newton",
+          "department": "Mathematics · Year X",
+          "is_president": false,
+          "bio": "Formulated the laws of motion and universal gravitation. Co-invented calculus.",
+          "socials": []
+        },
+        {
+          "id": "nikola-tesla-23",
+          "initial": "N",
+          "role": "Energy Visionary",
+          "role_display": "// ENERGY VISIONARY",
+          "name": "Nikola Tesla",
+          "department": "Electricity · Year X",
+          "is_president": false,
+          "bio": "Pioneered AC electricity and wireless communication. A futuristic thinker ahead of his time.",
+          "socials": []
+        },
+        {
+          "id": "marie-curie-23",
+          "initial": "M",
+          "role": "Radiation Expert",
+          "role_display": "// RADIATION EXPERT",
+          "name": "Marie Curie",
+          "department": "Chemistry · Year X",
+          "is_president": false,
+          "bio": "Pioneer in radioactivity. First person to win two Nobel Prizes in different scientific fields.",
+          "socials": []
+        },
+        {
+          "id": "richard-feynman-23",
+          "initial": "R",
+          "role": "Quantum Master",
+          "role_display": "// QUANTUM MASTER",
+          "name": "Richard Feynman",
+          "department": "Physics · Year X",
+          "is_president": false,
+          "bio": "Known for his work in quantum electrodynamics and his exceptional ability to explain complex physics.",
+          "socials": []
+        },
+        {
+          "id": "stephen-hawking-23",
+          "initial": "S",
+          "role": "Cosmos Lead",
+          "role_display": "// COSMOS LEAD",
+          "name": "Stephen Hawking",
+          "department": "Cosmology · Year X",
+          "is_president": false,
+          "bio": "Theorized black hole radiation and the origin of the universe. A symbol of intellectual perseverance.",
+          "socials": []
+        },
+        {
+          "id": "charles-darwin-23",
+          "initial": "C",
+          "role": "Evolution Lead",
+          "role_display": "// EVOLUTION LEAD",
+          "name": "Charles Darwin",
+          "department": "Biology · Year X",
+          "is_president": false,
+          "bio": "Proposed the theory of evolution by natural selection, changing biology forever.",
+          "socials": []
+        },
+        {
+          "id": "niels-bohr-23",
+          "initial": "N",
+          "role": "Atomic Architect",
+          "role_display": "// ATOMIC ARCHITECT",
+          "name": "Niels Bohr",
+          "department": "Physics · Year X",
+          "is_president": false,
+          "bio": "Developed the Bohr model of the atom and contributed to the foundation of quantum mechanics.",
+          "socials": []
+        }
+      ]
+    }
+  ]
+}

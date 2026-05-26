@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 290 880 300"
+     width="100%"
+     preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- CSS classes for colors and typography -->
+    <style>
+      .bg-color { fill: #16355f; }     /* Dark blue background */
+      .text-color { fill: #16355f; }    /* Dark blue for texts inside white box */
+      .white-color { fill: #ffffff; }   /* White for icons and footer text */
+      
+      .title-font {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 74px;
+        font-weight: bold;
+      }
+      
+      .subtitle-font {
+        font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+        font-size: 32px;
+        font-weight: 1000;
+        letter-spacing: 2.7px;
+      }
+      
+      .footer-font {
+        font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+        font-size: 39px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+    </style>
+  </defs>
+
+  <!-- Full‑size dark background -->
+  <rect width="880" height="880" class="bg-color" />
+
+  <!-- 
+    The entire design is inside this group.
+    The transformation shifts the original 1200-wide layout
+    so that it appears centered in the new 880×880 square canvas.
+  -->
+  <g transform="translate(-160, 48.5)">
+
+    <!-- White horizontal banner in the middle -->
+    <rect x="190" y="275" width="820" height="180" class="white-color" />
+
+    <!-- Logo icon (computer / data visualization symbol) -->
+    <g>
+      <!-- Dark square behind the icon -->
+      <rect x="217" y="296" width="138" height="138" class="bg-color" />
+      
+      <!-- Screen outline -->
+      <rect x="245" y="346.7" width="82" height="56" rx="3" fill="none" stroke="#ffffff" stroke-width="3" />
+      
+      <!-- Laptop keyboard (trapezoid shape) -->
+      <path d="m 234.8,403.5 h 102.3 l -6,10.3 h -90.3 z" fill="none" stroke="#ffffff" stroke-width="2.7" stroke-linejoin="round" />
+      
+      <!-- Laptop touchpad -->
+      <path d="m 266,403.7 h 40 l -8,5 h -23 z" fill="none" stroke="#ffffff" stroke-width="2.7" stroke-linejoin="round" />
+      
+      <!-- Chart axes -->
+      <path d="m 253,356.7 v 39 h 67" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="square" />
+      
+      <!-- Trend line (graph) -->
+      <path d="m 253,381.7 l 8,-14 l 8,7 l 9,-17" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+      
+      <!-- Data points on the trend line -->
+      <circle cx="261" cy="367.7" r="1.5" class="white-color" />
+      <circle cx="269" cy="374.7" r="1.5" class="white-color" />
+      <circle cx="278" cy="357.7" r="1.5" class="white-color" />
+      
+      <!-- Bar chart bars -->
+      <rect x="262" y="385.7" width="9" height="10" fill="none" stroke="#ffffff" stroke-width="2" />
+      <rect x="278" y="375.7" width="9" height="20" fill="none" stroke="#ffffff" stroke-width="2" />
+      <rect x="294" y="364" width="9" height="31.5" fill="none" stroke="#ffffff" stroke-width="2" />
+      <rect x="310" y="355" width="9" height="40.5" fill="none" stroke="#ffffff" stroke-width="2" />
+      
+      <!-- Decorative star (left) -->
+      <polygon points="247,324 254,326 247,328 245,335 243,328 236,326 243,324 245,317" class="white-color" transform="translate(0, 3.7)" />
+      
+      <!-- Decorative star (right) -->
+      <polygon points="326.5,326 330.5,327.5 326.5,329 325,333 323.5,329 319.5,327.5 323.5,326 325,322" class="white-color" transform="translate(0, 3.7)" />
+      
+      <!-- Small decorative circles (moons / planets) -->
+      <circle cx="275" cy="323.7" r="2.5" fill="none" stroke="#ffffff" stroke-width="1.5" />
+      <circle cx="305" cy="333.7" r="3" fill="none" stroke="#ffffff" stroke-width="1.5" />
+      <circle cx="288" cy="317.7" r="1.2" class="white-color" />
+      <circle cx="262" cy="339.7" r="1" class="white-color" />
+      <circle cx="315" cy="318.7" r="1" class="white-color" />
+    </g>
+
+    <!-- Main title and subtitle inside the white box -->
+    <g>
+      <text x="375" y="362.9" class="text-color title-font">Programming Club</text>
+      <text x="375" y="421.2" class="text-color subtitle-font">Department of Statistics, CU</text>
+    </g>
+
+    <!-- Footer text (tagline) below the white box -->
+    <g>
+      <text x="600" y="508" text-anchor="middle" class="white-color footer-font">Data is Precious, Code is Obvious</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,203 @@
+/*****************************
+   PCStat Design System - Theme
+   Version: 1.0.0
+   Maintains visual consistency across all wings
+*****************************/
+
+:root {
+  /* Core Colors */
+  --bg: #0a0a0a;           /* Background */
+  --fg: #e0e0e0;           /* Foreground */
+  --ac: #00d4aa;           /* Accent */
+  --mut: #555;            /* Muted text */
+  --err: #ff4444;          /* Error */
+  --warn: #ffbb33;         /* Warning */
+  --succ: #00C851;         /* Success */
+
+  /* Typography */
+  --fm: 'Fira Code', 'Courier New', monospace;  /* Font Mono */
+  --fs: 'Inter', sans-serif;                   /* Font Sans */
+  --ff: 'Georgia', serif;                      /* Font Serif */
+
+  /* Spacing System */
+  --gap-xs: 0.25rem;
+  --gap-sm: 0.5rem;
+  --gap: 1rem;
+  --gap-lg: 1.5rem;
+  --gap-xl: 2rem;
+
+  /* Border Radius */
+  --rad-sm: 2px;
+  --rad: 4px;
+  --rad-lg: 8px;
+  --rad-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.1);
+  --shadow: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-lg: 0 4px 8px rgba(0,0,0,0.1);
+
+  /* Transitions */
+  --trans: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-fast: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #111111;
+  --ac: #00a884;
+  --mut: #666666;
+  --err: #ff3333;
+  --warn: #ff8800;
+  --succ: #00a854;
+}
+
+/* Theme Switcher Styles */
+.theme-switch {
+  width: 44px;
+  height: 22px;
+  background: var(--mut);
+  border-radius: var(--rad-full);
+  position: relative;
+  cursor: pointer;
+  transition: var(--trans);
+}
+
+.theme-switch:hover {
+  background: var(--ac);
+}
+
+.switch-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--bg);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: var(--trans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-theme="light"] .switch-thumb {
+  left: calc(100% - 18px - 2px);
+}
+
+/* Standard Card Component */
+.card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--rad);
+  padding: var(--gap);
+  margin-bottom: var(--gap);
+  transition: var(--trans);
+}
+
+.card:hover {
+  border-color: var(--ac);
+  background: rgba(0, 180, 170, 0.05);
+}
+
+/* Standard Button Component */
+.btn {
+  background: transparent;
+  border: 1px solid var(--ac);
+  color: var(--ac);
+  padding: var(--gap-sm) var(--gap);
+  border-radius: var(--rad-sm);
+  font-family: var(--fm);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: var(--trans);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn:hover {
+  background: var(--ac);
+  color: var(--bg);
+}
+
+.btn-primary {
+  background: var(--ac);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: color-mix(in srgb, var(--ac) 90%, black 10%);
+}
+
+/* Navigation Styles */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  padding: var(--gap-sm) var(--gap);
+  color: var(--mut);
+  cursor: pointer;
+  transition: var(--trans);
+  border-radius: var(--rad-sm);
+}
+
+.nav-item:hover, .nav-item.active {
+  color: var(--fg);
+  background: rgba(0, 180, 170, 0.1);
+}
+
+/* Typography Utilities */
+.text-mono { font-family: var(--fm); }
+.text-sans { font-family: var(--fs); }
+.text-serif { font-family: var(--ff); }
+
+.text-xs { font-size: 0.7rem; }
+.text-sm { font-size: 0.8rem; }
+.text-base { font-size: 0.9rem; }
+.text-lg { font-size: 1rem; }
+.text-xl { font-size: 1.2rem; }
+
+/* Spacing Utilities */
+.p-xs { padding: var(--gap-xs); }
+.p-sm { padding: var(--gap-sm); }
+.p-base { padding: var(--gap); }
+.p-lg { padding: var(--gap-lg); }
+.p-xl { padding: var(--gap-xl); }
+
+.m-xs { margin: var(--gap-xs); }
+.m-sm { margin: var(--gap-sm); }
+.m-base { margin: var(--gap); }
+.m-lg { margin: var(--gap-lg); }
+.m-xl { margin: var(--gap-xl); }
+
+/* Layout Utilities */
+.flex { display: flex; }
+.grid { display: grid; }
+.gap-xs { gap: var(--gap-xs); }
+.gap-sm { gap: var(--gap-sm); }
+.gap-base { gap: var(--gap); }
+.gap-lg { gap: var(--gap-lg); }
+.gap-xl { gap: var(--gap-xl); }
+
+/* Theme Validation Helper */
+.theme-validator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: var(--ac);
+  color: var(--bg);
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: var(--rad-sm);
+  z-index: 9999;
+}
+
+.theme-valid::after {
+  content: '✓ Theme OK';
+}
+
+.theme-invalid::after {
+  content: '✗ Theme Mismatch';
+  background: var(--err);
+}

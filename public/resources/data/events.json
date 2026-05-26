@@ -1,0 +1,60 @@
+{
+  "note": "All events are hosted in hybrid mode. Register via the links below to receive the meeting invite or venue details.",
+  "events": [
+    {
+      "id": "ev-2026-001",
+      "title": "Global AI Summit 2026 — The AGI Horizon",
+      "date": "2026-05-20",
+      "time": "10:00 AM",
+      "location": "Main Auditorium / Zoom",
+      "audience": "Open to all students & researchers",
+      "type": "seminar",
+      "register_link": "https://forms.google.com/demo-ai-summit",
+      "details_link": "https://facebook.com/events/ai-summit-2026"
+    },
+    {
+      "id": "ev-2026-002",
+      "title": "Quant Finance Masterclass — Trading with Python",
+      "date": "2026-06-05",
+      "time": "3:00 PM",
+      "location": "Lab 2, Faculty Building",
+      "audience": "Intermediate Python users",
+      "type": "workshop",
+      "register_link": "https://forms.google.com/demo-quant-class",
+      "details_link": "https://facebook.com/events/quant-python"
+    },
+    {
+      "id": "ev-2026-003",
+      "title": "The Turing Challenge — 48hr Global Hackathon",
+      "date": "2026-06-22",
+      "time": "09:00 AM",
+      "location": "Innovation Hub / Online",
+      "audience": "Competitive programmers & builders",
+      "type": "contest",
+      "register_link": "https://forms.google.com/demo-turing-hack",
+      "details_link": "https://facebook.com/events/turing-challenge"
+    },
+    {
+      "id": "ev-2026-004",
+      "title": "Deep Learning for Healthcare Symposium",
+      "date": "2026-07-10",
+      "time": "11:00 AM",
+      "location": "Conference Hall B",
+      "audience": "Researchers & Data Scientists",
+      "type": "seminar",
+      "register_link": "https://forms.google.com/demo-health-ai",
+      "details_link": "https://facebook.com/events/health-ai-symposium"
+    },
+    {
+      "id": "ev-2026-005",
+      "title": "Future of Quantum Computing — Hands-on Workshop",
+      "date": "2026-07-25",
+      "time": "2:00 PM",
+      "location": "Advanced Computing Lab",
+      "audience": "Students with basic Linear Algebra knowledge",
+      "type": "workshop",
+      "register_link": "https://forms.google.com/demo-quantum-ws",
+      "details_link": "https://facebook.com/events/quantum-future"
+    }
+  ]
+}
